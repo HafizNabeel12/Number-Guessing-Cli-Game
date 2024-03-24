@@ -5,10 +5,15 @@
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
   },
-  "name": "@hafiz-nabeel/cli_game",
-  "version": "1.0.3",
+  "name": "@hafiz-nabeel/cli-game234",
+  "version": "8.0.7",
   "main": "main.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

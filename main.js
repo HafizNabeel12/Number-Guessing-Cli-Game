@@ -1,4 +1,4 @@
-#!/usr/bin/env tsm
+#!/usr/bin/env node
 import inquirer from "inquirer";
 async function askQuestion() {
     const number = (Math.floor(Math.random() * 10));
@@ -6,7 +6,7 @@ async function askQuestion() {
         {
             "name": "Number_Guessing_Game",
             "type": "number",
-            "message": "Please Guess a Number",
+            "message": "Please Guess a Number Between 1 to 10",
         }
     ]);
     if (answer.Number_Guessing_Game == number) {
